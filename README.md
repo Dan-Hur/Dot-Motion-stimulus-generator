@@ -11,3 +11,9 @@ The "Play" button will play an animation of the stimulus with the set parameters
 The "Set Paramerters" button needs to be pressed affter changing either the motion pattern, number of dots, direction of motion or dot color, in order for the new parameters to be set. the "Dot size" and "Dot speed" sliders change the dots in real time.
 The "Export Videos" button will prompt a series of questions for the waned format of the exported video, after which the video will be created and saved.
 
+Here is an example for such a video:
+
+
+
+https://user-images.githubusercontent.com/120125680/210796653-abc3c92e-33e4-4a2d-8339-b0bde6d6cec8.mp4
+
