@@ -135,8 +135,12 @@ function h_gui_fig_CloseRequestFcn(hObject, eventdata, handles)
     
     global msg_db;
     
-    stop(handles.h_play_tmr);
-    delete(handles.h_play_tmr);
+    try
+        stop(handles.h_play_tmr);
+        delete(handles.h_play_tmr);
+    catch
+    end
+    
     clear msg_db;
     
     delete(hObject);
